@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Explore</title>
+
+    <style>
+        .container, .inner,.container1{
+            width: 150px;
+            height:150px;
+            border: 2px solid gold;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .container1{
+            background-color: coral;
+            transform: rotate(-30deg)
+        }
+
+        .container{
+            background-color: lightcoral;
+        }
+
+        .inner{
+            background-color: lightblue;
+            transform: scale(0.5) rotate(45deg) translate(90px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transformar i am comming</h1>
+    <div class="box container">
+        <div class="inner">Box-1</div>
+    </div>
+
+    <div class="box container">
+        <div class="inner">Box-2</div>
+    </div>
+
+    <div class="box container">
+        <div class="inner">Box-3</div>
+    </div>
+
+    <div class="container1" style="margin: 100px;">
+        <div>amit</div>
+    </div>
+</body>
+</html>
